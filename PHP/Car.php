@@ -9,15 +9,15 @@ class Car{
 
 
     public function __construct($license,$driver){
-        $this ->_license =$license;
-        $this ->_driver = $driver;
+        $this->license = $license;
+        $this->driver = $driver;
 
     }
     
     public function printDataCar(){
-        echo "la license:  $this ->license,driver: 
-        {$this ->driver ->name},document:
-        {$this ->driver->document}";
+        echo "la license:  $this->license,driver: 
+        {$this->driver->name},document:
+        {$this->driver->document}";
     }
 
 }
