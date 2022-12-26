@@ -4,14 +4,20 @@ class Main{
     public static void main(String[] args) {
         System.out.println("Hola Futura programadora");
         
-        Car car = new Car("AKB123", new Account("Jhon Edison Munoz", "1040745854"));
-        car.passengers=4;
-        car.printDataCar();
+        UberX uberx = new UberX("AKB123", new Account("Jhon Edison Munoz", "1040745854"),"Ford","Escape");
+        uberx.setPassengers(4);
+        uberx.printDataCar();
+        
+       
+        
+    //    UberVan uberVan = new UberVan("KBW234", new Account("Jhon Edison Munoz", "1040745854"));
+    //    uberVan.setPassengers(5);
+    //    uberVan.printDataCar();
 
 
-        Car car2 = new Car("KBM154", new Account("Alezander Molina", "12345562"));
+        /*Car car2 = new Car("KBM154", new Account("Alezander Molina", "12345562"));
         car2.passengers=4;
-        car2.printDataCar();
+        car2.printDataCar();*/
 
     }
 }
